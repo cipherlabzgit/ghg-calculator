@@ -1,0 +1,4863 @@
+{
+  "fuels": [
+    {
+      "type": "Gaseous fuels",
+      "fuel": "CNG",
+      "unit": "litres",
+      "factor": 0.44423
+    },
+    {
+      "type": "Gaseous fuels",
+      "fuel": "LNG",
+      "unit": "litres",
+      "factor": 1.15623
+    },
+    {
+      "type": "Gaseous fuels",
+      "fuel": "LPG",
+      "unit": "litres",
+      "factor": 1.55709
+    },
+    {
+      "type": "Gaseous fuels",
+      "fuel": "Natural gas",
+      "unit": "cubic metres",
+      "factor": 2.02135
+    },
+    {
+      "type": "Gaseous fuels",
+      "fuel": "Natural gas (100% mineral blend)",
+      "unit": "cubic metres",
+      "factor": 2.03473
+    },
+    {
+      "type": "Gaseous fuels",
+      "fuel": "Other petroleum gas",
+      "unit": "litres",
+      "factor": 0.94441
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Aviation spirit",
+      "unit": "litres",
+      "factor": 2.33048
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Aviation turbine fuel",
+      "unit": "litres",
+      "factor": 2.54514
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Burning oil",
+      "unit": "litres",
+      "factor": 2.54014
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Diesel (average biofuel blend)",
+      "unit": "litres",
+      "factor": 2.51233
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Diesel (100% mineral diesel)",
+      "unit": "litres",
+      "factor": 2.70553
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Fuel oil",
+      "unit": "litres",
+      "factor": 3.17522
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Gas oil",
+      "unit": "litres",
+      "factor": 2.75857
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Lubricants",
+      "unit": "litres",
+      "factor": 2.74972
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Naphtha",
+      "unit": "litres",
+      "factor": 2.11926
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Petrol (average biofuel blend)",
+      "unit": "litres",
+      "factor": 2.19352
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Petrol (100% mineral petrol)",
+      "unit": "litres",
+      "factor": 2.33969
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Processed fuel oils - residual oil",
+      "unit": "litres",
+      "factor": 3.17522
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Processed fuel oils - distillate oil",
+      "unit": "litres",
+      "factor": 2.75857
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Waste oils",
+      "unit": "litres",
+      "factor": 2.75368
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Marine gas oil",
+      "unit": "litres",
+      "factor": 2.77539
+    },
+    {
+      "type": "Liquid fuels",
+      "fuel": "Marine fuel oil",
+      "unit": "litres",
+      "factor": 3.10669
+    },
+    {
+      "type": "Solid fuels",
+      "fuel": "Coal (industrial)",
+      "unit": "tonnes",
+      "factor": 2403.84
+    },
+    {
+      "type": "Solid fuels",
+      "fuel": "Coal (electricity generation)",
+      "unit": "tonnes",
+      "factor": 2252.34
+    },
+    {
+      "type": "Solid fuels",
+      "fuel": "Coal (domestic)",
+      "unit": "tonnes",
+      "factor": 2883.26
+    },
+    {
+      "type": "Solid fuels",
+      "fuel": "Coking coal",
+      "unit": "tonnes",
+      "factor": 3165.24
+    },
+    {
+      "type": "Solid fuels",
+      "fuel": "Petroleum coke",
+      "unit": "tonnes",
+      "factor": 3386.86
+    },
+    {
+      "type": "Solid fuels",
+      "fuel": "Coal (electricity generation - home produced coal only)",
+      "unit": "tonnes",
+      "factor": 2248.82
+    }
+  ],
+  "bioenergy": [
+    {
+      "type": "Biofuel",
+      "fuel": "Bioethanol",
+      "unit": "litres",
+      "factor": 0.00901
+    },
+    {
+      "type": "Biofuel",
+      "fuel": "Biodiesel ME",
+      "unit": "litres",
+      "factor": 0.16751
+    },
+    {
+      "type": "Biofuel",
+      "fuel": "Biodiesel ME (from used cooking oil)",
+      "unit": "litres",
+      "factor": 0.16751
+    },
+    {
+      "type": "Biofuel",
+      "fuel": "Biodiesel ME (from tallow)",
+      "unit": "litres",
+      "factor": 0.16751
+    },
+    {
+      "type": "Biomass",
+      "fuel": "Wood logs",
+      "unit": "tonnes",
+      "factor": 61.81736
+    },
+    {
+      "type": "Biomass",
+      "fuel": "Wood chips",
+      "unit": "tonnes",
+      "factor": 57.15269
+    },
+    {
+      "type": "Biomass",
+      "fuel": "Wood pellets",
+      "unit": "tonnes",
+      "factor": 72.61754
+    },
+    {
+      "type": "Biomass",
+      "fuel": "Grass/straw",
+      "unit": "tonnes",
+      "factor": 49.23656
+    },
+    {
+      "type": "Biogas",
+      "fuel": "Biogas",
+      "unit": "tonnes",
+      "factor": 1.21518
+    },
+    {
+      "type": "Biogas",
+      "fuel": "Landfill gas",
+      "unit": "tonnes",
+      "factor": 0.68793
+    }
+  ],
+  "refrigerants": [
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Carbon dioxide",
+      "unit": "kg",
+      "factor": 1.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Methane",
+      "unit": "kg",
+      "factor": 25.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Nitrous oxide",
+      "unit": "kg",
+      "factor": 298.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-23",
+      "unit": "kg",
+      "factor": 14800.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-32",
+      "unit": "kg",
+      "factor": 675.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-41",
+      "unit": "kg",
+      "factor": 92.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-125",
+      "unit": "kg",
+      "factor": 3500.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-134",
+      "unit": "kg",
+      "factor": 1100.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-134a",
+      "unit": "kg",
+      "factor": 1430.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-143",
+      "unit": "kg",
+      "factor": 353.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-143a",
+      "unit": "kg",
+      "factor": 4470.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-152a",
+      "unit": "kg",
+      "factor": 124.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-227ea",
+      "unit": "kg",
+      "factor": 3220.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-236fa",
+      "unit": "kg",
+      "factor": 9810.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-245fa",
+      "unit": "kg",
+      "factor": 1030.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-43-I0mee",
+      "unit": "kg",
+      "factor": 1640.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluoromethane (PFC-14)",
+      "unit": "kg",
+      "factor": 7390.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluoroethane (PFC-116)",
+      "unit": "kg",
+      "factor": 12200.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluoropropane (PFC-218)",
+      "unit": "kg",
+      "factor": 8830.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluorocyclobutane (PFC-318)",
+      "unit": "kg",
+      "factor": 10300.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluorobutane (PFC-3-1-10)",
+      "unit": "kg",
+      "factor": 8860.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluoropentane (PFC-4-1-12)",
+      "unit": "kg",
+      "factor": 9160.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Perfluorohexane (PFC-5-1-14)",
+      "unit": "kg",
+      "factor": 9300.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "Sulphur hexafluoride (SF6)",
+      "unit": "kg",
+      "factor": 22800.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-152",
+      "unit": "kg",
+      "factor": 53.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-161",
+      "unit": "kg",
+      "factor": 12.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-236cb",
+      "unit": "kg",
+      "factor": 1340.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-236ea",
+      "unit": "kg",
+      "factor": 1370.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-245ca",
+      "unit": "kg",
+      "factor": 693.0
+    },
+    {
+      "type": "Kyoto protocol - standard",
+      "emission": "HFC-365mfc",
+      "unit": "kg",
+      "factor": 794.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R404A",
+      "unit": "kg",
+      "factor": 3922.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R407A",
+      "unit": "kg",
+      "factor": 2107.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R407C",
+      "unit": "kg",
+      "factor": 1774.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R407F",
+      "unit": "kg",
+      "factor": 1825.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R408A",
+      "unit": "kg",
+      "factor": 3152.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R410A",
+      "unit": "kg",
+      "factor": 2088.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R507A",
+      "unit": "kg",
+      "factor": 3985.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R508B",
+      "unit": "kg",
+      "factor": 13396.0
+    },
+    {
+      "type": "Kyoto protocol- blends",
+      "emission": "R403A",
+      "unit": "kg",
+      "factor": 3124.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "CFC-11/R11 = trichlorofluoromethane",
+      "unit": "kg",
+      "factor": 4750.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "CFC-12/R12 = dichlorodifluoromethane",
+      "unit": "kg",
+      "factor": 10900.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "CFC-13",
+      "unit": "kg",
+      "factor": 14400.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "CFC-113",
+      "unit": "kg",
+      "factor": 6130.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "CFC-114",
+      "unit": "kg",
+      "factor": 10000.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "CFC-115",
+      "unit": "kg",
+      "factor": 7370.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "Halon-1211",
+      "unit": "kg",
+      "factor": 1890.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "Halon-1301",
+      "unit": "kg",
+      "factor": 7140.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "Halon-2402",
+      "unit": "kg",
+      "factor": 1640.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "Carbon tetrachloride",
+      "unit": "kg",
+      "factor": 1400.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "Methyl bromide",
+      "unit": "kg",
+      "factor": 5.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "Methyl chloroform",
+      "unit": "kg",
+      "factor": 146.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-22/R22 = chlorodifluoromethane",
+      "unit": "kg",
+      "factor": 1810.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-123",
+      "unit": "kg",
+      "factor": 77.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-124",
+      "unit": "kg",
+      "factor": 609.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-141b",
+      "unit": "kg",
+      "factor": 725.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-142b",
+      "unit": "kg",
+      "factor": 2310.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-225ca",
+      "unit": "kg",
+      "factor": 122.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-225cb",
+      "unit": "kg",
+      "factor": 595.0
+    },
+    {
+      "type": "Montreal protocol - standard",
+      "emission": "HCFC-21",
+      "unit": "kg",
+      "factor": 151.0
+    },
+    {
+      "type": "Other perfluorinated gases",
+      "emission": "Nitrogen trifluoride",
+      "unit": "kg",
+      "factor": 17200.0
+    },
+    {
+      "type": "Other perfluorinated gases",
+      "emission": "PFC-9-1-18",
+      "unit": "kg",
+      "factor": 7500.0
+    },
+    {
+      "type": "Other perfluorinated gases",
+      "emission": "Trifluoromethyl sulphur pentafluoride",
+      "unit": "kg",
+      "factor": 17700.0
+    },
+    {
+      "type": "Other perfluorinated gases",
+      "emission": "Perfluorocyclopropane",
+      "unit": "kg",
+      "factor": 17340.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-125",
+      "unit": "kg",
+      "factor": 14900.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-134",
+      "unit": "kg",
+      "factor": 6320.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-143a",
+      "unit": "kg",
+      "factor": 756.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HCFE-235da2",
+      "unit": "kg",
+      "factor": 350.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-245cb2",
+      "unit": "kg",
+      "factor": 708.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-245fa2",
+      "unit": "kg",
+      "factor": 659.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-254cb2",
+      "unit": "kg",
+      "factor": 359.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-347mcc3",
+      "unit": "kg",
+      "factor": 575.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-347pcf2",
+      "unit": "kg",
+      "factor": 580.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-356pcc3",
+      "unit": "kg",
+      "factor": 110.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-449sl (HFE-7100)",
+      "unit": "kg",
+      "factor": 297.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-569sf2 (HFE-7200)",
+      "unit": "kg",
+      "factor": 59.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-43-10pccc124 (H-Galden1040x)",
+      "unit": "kg",
+      "factor": 1870.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-236ca12 (HG-10)",
+      "unit": "kg",
+      "factor": 2800.0
+    },
+    {
+      "type": "Fluorinated ethers",
+      "emission": "HFE-338pcc13 (HG-01)",
+      "unit": "kg",
+      "factor": 1500.0
+    },
+    {
+      "type": "Other refrigerants",
+      "emission": "PFPMIE",
+      "unit": "kg",
+      "factor": 10300.0
+    },
+    {
+      "type": "Other refrigerants",
+      "emission": "Dimethylether",
+      "unit": "kg",
+      "factor": 1.0
+    },
+    {
+      "type": "Other refrigerants",
+      "emission": "Methylene chloride",
+      "unit": "kg",
+      "factor": 8.7
+    },
+    {
+      "type": "Other refrigerants",
+      "emission": "Methyl chloride",
+      "unit": "kg",
+      "factor": 13.0
+    },
+    {
+      "type": "Other refrigerants",
+      "emission": "R290 = propane",
+      "unit": "kg",
+      "factor": 3.3
+    },
+    {
+      "type": "Other refrigerants",
+      "emission": "R600A = isobutane",
+      "unit": "kg",
+      "factor": 3.0
+    },
+    {
+      "type": "Montreal protocol - blends",
+      "emission": "R406A",
+      "unit": "kg",
+      "factor": 1943.0
+    },
+    {
+      "type": "Montreal protocol - blends",
+      "emission": "R409A",
+      "unit": "kg",
+      "factor": 1585.0
+    },
+    {
+      "type": "Montreal protocol - blends",
+      "emission": "R502",
+      "unit": "kg",
+      "factor": 4657.0
+    }
+  ],
+  "ownedVehicles": [
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Small car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.022410000000000003,
+      "evFactor": 0.030569999999999996
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Small car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.04195
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.06944,
+      "evFactor": 0.019770000000000003
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.04826
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.07674,
+      "evFactor": 0.0259
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.05573
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.071,
+      "evFactor": 0.02383
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.05031
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Small car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.13758,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Small car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.14946,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Small car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.10494,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Small car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.14549,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.16496,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.18785,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.10957,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.15949,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.17927,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Medium car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.17562,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.20721,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.27909,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.15151,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.23626,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.26643,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Large car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.22597,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.16843,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.17431,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.11952,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.17624,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.19828,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Cars (by size)",
+      "level3": "Average car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.17148,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Motorbike",
+      "level3": "Small",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.08306000000000001,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Motorbike",
+      "level3": "Medium",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.1009,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Motorbike",
+      "level3": "Large",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.13244999999999998,
+      "evFactor": null
+    },
+    {
+      "level1": "Passenger vehicles",
+      "level2": "Motorbike",
+      "level3": "Average",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.11355,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class I (up to 1.305 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.036340000000000004
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.05016
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.07037
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Average (up to 3.5 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": 0.0502
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class I (up to 1.305 tonnes)",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.1467,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class I (up to 1.305 tonnes)",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.19987,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class I (up to 1.305 tonnes)",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class I (up to 1.305 tonnes)",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class I (up to 1.305 tonnes)",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.18315,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.19821,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.26529,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.31306,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.0,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Average (up to 3.5 tonnes)",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.24116,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Average (up to 3.5 tonnes)",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.21047,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Average (up to 3.5 tonnes)",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.24548,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Average (up to 3.5 tonnes)",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.27,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "Vans",
+      "level3": "Average (up to 3.5 tonnes)",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.24017,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "Rigid (>3.5 - 7.5 tonnes)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.48058,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "Rigid (>7.5 tonnes-17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.58692,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "Rigid (>17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.95752,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "All rigids",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.80305,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "Articulated (>3.5 - 33t)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.76976,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "Articulated (>33t)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.91648,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "All artics",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.91048,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGV (all diesel)",
+      "level3": "All HGVs",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.86407,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "Rigid (>3.5 - 7.5 tonnes)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.57213,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "Rigid (>7.5 tonnes-17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.69873,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "Rigid (>17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 1.13993,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "All rigids",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.95603,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "Articulated (>3.5 - 33t)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 0.89021,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "Articulated (>33t)",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 1.0599,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "All artics",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 1.05295,
+      "evFactor": null
+    },
+    {
+      "level1": "Delivery vehicles",
+      "level2": "HGVs refrigerated (all diesel)",
+      "level3": "All HGVs",
+      "fuel": "Average laden",
+      "unit": "km",
+      "factor": 1.01192,
+      "evFactor": null
+    }
+  ],
+  "wttFuels": [
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "Butane",
+      "unit": "litres",
+      "factor": 0.19686
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "CNG",
+      "unit": "litres",
+      "factor": 0.09487
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "LNG",
+      "unit": "litres",
+      "factor": 0.39925
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "LPG",
+      "unit": "litres",
+      "factor": 0.18383
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "Natural Gas",
+      "unit": "cubic metres",
+      "factor": 0.34593
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "Other Petroleum Gas",
+      "unit": "litres",
+      "factor": 0.11154
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "Propane",
+      "unit": "litres",
+      "factor": 0.18046
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Aviation Spirit",
+      "unit": "litres",
+      "factor": 0.59512
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Aviation Turbine Fuel",
+      "unit": "litres",
+      "factor": 0.52686
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Burning Oil",
+      "unit": "litres",
+      "factor": 0.52807
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Diesel (average biofuel blend)",
+      "unit": "litres",
+      "factor": 0.60986
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Diesel (100% mineral diesel)",
+      "unit": "litres",
+      "factor": 0.62874
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Fuel Oil",
+      "unit": "litres",
+      "factor": 0.69723
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Gas Oil",
+      "unit": "litres",
+      "factor": 0.63253
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Lubricants",
+      "unit": "litres",
+      "factor": 0.0
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Naphtha",
+      "unit": "litres",
+      "factor": 0.0
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Petrol (average biofuel blend)",
+      "unit": "litres",
+      "factor": 0.61328
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Petrol (100% mineral petrol)",
+      "unit": "litres",
+      "factor": 0.60283
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Processed fuel oils - residual oil",
+      "unit": "litres",
+      "factor": 0.82185
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Processed fuel oils - distillate oil",
+      "unit": "litres",
+      "factor": 0.70791
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Refinery Miscellaneous",
+      "unit": "litres",
+      "factor": 0.0
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Waste oils",
+      "unit": "litres",
+      "factor": 0.0
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Marine gas oil",
+      "unit": "litres",
+      "factor": 0.63253
+    },
+    {
+      "type": "WTT- liquid fuels",
+      "fuel": "Marine fuel oil",
+      "unit": "litres",
+      "factor": 0.69723
+    },
+    {
+      "type": "WTT- gaseous fuels",
+      "fuel": "Natural gas (100% mineral blend)",
+      "unit": "cubic metres",
+      "factor": 0.34593
+    }
+  ],
+  "materialUse": [
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Aggregates",
+      "unit": "tonnes",
+      "factor": 7.7589016
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Asbestos",
+      "unit": "tonnes",
+      "factor": 27.0
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Asphalt",
+      "unit": "tonnes",
+      "factor": 39.21249182857798
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Average construction",
+      "unit": "tonnes",
+      "factor": 79.97367260854475
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Bricks",
+      "unit": "tonnes",
+      "factor": 241.7589016
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Concrete",
+      "unit": "tonnes",
+      "factor": 131.7589016
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Insulation",
+      "unit": "tonnes",
+      "factor": 1861.7589016
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Metals",
+      "unit": "tonnes",
+      "factor": 3975.823373347368
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Mineral oil",
+      "unit": "tonnes",
+      "factor": 1401.0
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Plasterboard",
+      "unit": "tonnes",
+      "factor": 120.05000000000001
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Tyres",
+      "unit": "tonnes",
+      "factor": 3335.5718997142853
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Construction",
+      "material": "Wood",
+      "unit": "tonnes",
+      "factor": 312.6117801729025
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Batteries - Alkaline",
+      "unit": "tonnes",
+      "factor": 4633.478260869565
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Batteries - Li ion",
+      "unit": "tonnes",
+      "factor": 6308.0
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Batteries - NiMh",
+      "unit": "tonnes",
+      "factor": 28380.0
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Electrical items - IT",
+      "unit": "tonnes",
+      "factor": 24865.47556489753
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Electrical items - fridges and freezers",
+      "unit": "tonnes",
+      "factor": 4363.333333333334
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Electrical items - large",
+      "unit": "tonnes",
+      "factor": 3267.0
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Electrical items",
+      "material": "Electrical items - small",
+      "unit": "tonnes",
+      "factor": 5647.945633995242
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Metal",
+      "material": "Metal: aluminium cans and foil (excl. forming)",
+      "unit": "tonnes",
+      "factor": 9122.636400000001
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Metal",
+      "material": "Metal: mixed cans",
+      "unit": "tonnes",
+      "factor": 5268.5564
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Metal",
+      "material": "Metal: scrap metal",
+      "unit": "tonnes",
+      "factor": 3682.68290015361
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Metal",
+      "material": "Metal: steel cans",
+      "unit": "tonnes",
+      "factor": 3100.6364
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Organic",
+      "material": "Compost derived from food and garden waste",
+      "unit": "tonnes",
+      "factor": 116.1255319767442
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Organic",
+      "material": "Compost derived from garden waste",
+      "unit": "tonnes",
+      "factor": 113.3089069767442
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Other",
+      "material": "Clothing",
+      "unit": "tonnes",
+      "factor": 22310.0
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Other",
+      "material": "Food and drink",
+      "unit": "tonnes",
+      "factor": 3701.403593051204
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Other",
+      "material": "Glass",
+      "unit": "tonnes",
+      "factor": 1402.7666666666664
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Paper",
+      "material": "Paper and board: board",
+      "unit": "tonnes",
+      "factor": 821.233889214668
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Paper",
+      "material": "Paper and board: mixed",
+      "unit": "tonnes",
+      "factor": 881.1893614308588
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Paper",
+      "material": "Paper and board: paper",
+      "unit": "tonnes",
+      "factor": 919.39628
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 3269.8388922118374
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 2600.6364
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 4032.3924975609766
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 3104.7269923344943
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 3777.9489000000003
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 3413.0841611940295
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 2574.1647528352833
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 3276.7069334313005
+    },
+    {
+      "process": "Primary material production",
+      "activity": "Plastic",
+      "material": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 3116.291563869618
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Aggregates",
+      "unit": "tonnes",
+      "factor": 3.1991416
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Asphalt",
+      "unit": "tonnes",
+      "factor": 28.6591416
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Concrete",
+      "unit": "tonnes",
+      "factor": 3.1991416
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Insulation",
+      "unit": "tonnes",
+      "factor": 1852.0887747714219
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Metals",
+      "unit": "tonnes",
+      "factor": 1571.2703708
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Mineral oil",
+      "unit": "tonnes",
+      "factor": 676.0
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Plasterboard",
+      "unit": "tonnes",
+      "factor": 32.17
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Soils",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Construction",
+      "material": "Wood",
+      "unit": "tonnes",
+      "factor": 112.96968372342414
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Metal",
+      "material": "Metal: aluminium cans and foil (excl. forming)",
+      "unit": "tonnes",
+      "factor": 999.39628
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Metal",
+      "material": "Metal: mixed cans",
+      "unit": "tonnes",
+      "factor": 1473.7899568
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Metal",
+      "material": "Metal: scrap metal",
+      "unit": "tonnes",
+      "factor": 1633.1778227342547
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Metal",
+      "material": "Metal: steel cans",
+      "unit": "tonnes",
+      "factor": 1740.6363999999999
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Other",
+      "material": "Glass",
+      "unit": "tonnes",
+      "factor": 823.1895391853475
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Paper",
+      "material": "Paper and board: board",
+      "unit": "tonnes",
+      "factor": 718.5352758589306
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Paper",
+      "material": "Paper and board: mixed",
+      "unit": "tonnes",
+      "factor": 731.2767274900029
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Paper",
+      "material": "Paper and board: paper",
+      "unit": "tonnes",
+      "factor": 739.39628
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 2350.6163417001762
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 1797.2226780767996
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 3125.2715672888985
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 2541.3132704112945
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 3198.9573171428574
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 2489.67043927083
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 1894.6286272087464
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 2748.832979579386
+    },
+    {
+      "process": "Closed-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 2326.530279895238
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Construction",
+      "material": "Aggregates",
+      "unit": "tonnes",
+      "factor": 3.1991416
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Construction",
+      "material": "Bricks",
+      "unit": "tonnes",
+      "factor": 3.1991416
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Construction",
+      "material": "Concrete",
+      "unit": "tonnes",
+      "factor": 3.1991416
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Construction",
+      "material": "Tyres",
+      "unit": "tonnes",
+      "factor": 308.400153768
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Construction",
+      "material": "Wood",
+      "unit": "tonnes",
+      "factor": 259.131511627907
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Other",
+      "material": "Clothing",
+      "unit": "tonnes",
+      "factor": 152.24999999999997
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Other",
+      "material": "Glass",
+      "unit": "tonnes",
+      "factor": 24.76
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 600.0
+    },
+    {
+      "process": "Open-loop source",
+      "activity": "Plastic",
+      "material": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 599.9999999999999
+    },
+    {
+      "process": "Re-used",
+      "activity": "Construction",
+      "material": "Aggregates",
+      "unit": "tonnes",
+      "factor": 2.21
+    },
+    {
+      "process": "Re-used",
+      "activity": "Construction",
+      "material": "Asphalt",
+      "unit": "tonnes",
+      "factor": 1.7382608695652175
+    },
+    {
+      "process": "Re-used",
+      "activity": "Construction",
+      "material": "Tyres",
+      "unit": "tonnes",
+      "factor": 731.217889848
+    },
+    {
+      "process": "Re-used",
+      "activity": "Construction",
+      "material": "Wood",
+      "unit": "tonnes",
+      "factor": 38.54287911074685
+    },
+    {
+      "process": "Re-used",
+      "activity": "Other",
+      "material": "Clothing",
+      "unit": "tonnes",
+      "factor": 152.24999999999997
+    }
+  ],
+  "waste": [
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Aggregates",
+      "unit": "tonnes",
+      "factor": 1.2393136
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Asbestos",
+      "unit": "tonnes",
+      "factor": 5.918426356589147
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Asphalt",
+      "unit": "tonnes",
+      "factor": 1.2393136
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Bricks",
+      "unit": "tonnes",
+      "factor": 1.2393136
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Concrete",
+      "unit": "tonnes",
+      "factor": 1.2393136
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Insulation",
+      "unit": "tonnes",
+      "factor": 1.2393136
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Metals",
+      "unit": "tonnes",
+      "factor": 1.2643491
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Plasterboard",
+      "unit": "tonnes",
+      "factor": 71.95
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Soils",
+      "unit": "tonnes",
+      "factor": 17.582694949286356
+    },
+    {
+      "process": "Landfill",
+      "activity": "Construction",
+      "wasteType": "Wood",
+      "unit": "tonnes",
+      "factor": 828.0322654742941
+    },
+    {
+      "process": "Landfill",
+      "activity": "Electrical items",
+      "wasteType": "Batteries",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - fridges and freezers",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - large",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - mixed",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - small",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Metal",
+      "wasteType": "Metal: aluminium cans and foil (excl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Metal",
+      "wasteType": "Metal: mixed cans",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Metal",
+      "wasteType": "Metal: scrap metal",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Metal",
+      "wasteType": "Metal: steel cans",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Other",
+      "wasteType": "Books",
+      "unit": "tonnes",
+      "factor": 1041.8036935229597
+    },
+    {
+      "process": "Landfill",
+      "activity": "Other",
+      "wasteType": "Clothing",
+      "unit": "tonnes",
+      "factor": 444.94340664702185
+    },
+    {
+      "process": "Landfill",
+      "activity": "Other",
+      "wasteType": "Glass",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Paper",
+      "wasteType": "Paper and board: board",
+      "unit": "tonnes",
+      "factor": 1041.8036935229597
+    },
+    {
+      "process": "Landfill",
+      "activity": "Paper",
+      "wasteType": "Paper and board: mixed",
+      "unit": "tonnes",
+      "factor": 1041.8036935229597
+    },
+    {
+      "process": "Landfill",
+      "activity": "Paper",
+      "wasteType": "Paper and board: paper",
+      "unit": "tonnes",
+      "factor": 1041.8036935229597
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 8.901992248062015
+    },
+    {
+      "process": "Landfill",
+      "activity": "Refuse",
+      "wasteType": "Commercial and industrial waste",
+      "unit": "tonnes",
+      "factor": 467.0458
+    },
+    {
+      "process": "Landfill",
+      "activity": "Refuse",
+      "wasteType": "Household residual waste",
+      "unit": "tonnes",
+      "factor": 446.2415
+    },
+    {
+      "process": "Landfill",
+      "activity": "Refuse",
+      "wasteType": "Organic: food and drink waste",
+      "unit": "tonnes",
+      "factor": 626.8748661541774
+    },
+    {
+      "process": "Landfill",
+      "activity": "Refuse",
+      "wasteType": "Organic: garden waste",
+      "unit": "tonnes",
+      "factor": 578.9591337111701
+    },
+    {
+      "process": "Landfill",
+      "activity": "Refuse",
+      "wasteType": "Organic: mixed food and garden waste",
+      "unit": "tonnes",
+      "factor": 587.3443868886964
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Aggregates",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Asphalt",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Average construction",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Concrete",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Insulation",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Metals",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Mineral oil",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Plasterboard",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Soils",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Tyres",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Construction",
+      "wasteType": "Wood",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: aluminium cans and foil (excl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: mixed cans",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: scrap metal",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: steel cans",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Other",
+      "wasteType": "Books",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Other",
+      "wasteType": "Clothing",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Other",
+      "wasteType": "Glass",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Paper",
+      "wasteType": "Paper and board: board",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Paper",
+      "wasteType": "Paper and board: mixed",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Paper",
+      "wasteType": "Paper and board: paper",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Refuse",
+      "wasteType": "Commercial and industrial waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Closed-loop",
+      "activity": "Refuse",
+      "wasteType": "Household residual waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Construction",
+      "wasteType": "Aggregates",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Construction",
+      "wasteType": "Asphalt",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Construction",
+      "wasteType": "Average construction",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Construction",
+      "wasteType": "Bricks",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Construction",
+      "wasteType": "Concrete",
+      "unit": "tonnes",
+      "factor": 0.9891416
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Electrical items",
+      "wasteType": "Batteries",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - fridges and freezers",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - large",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - mixed",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - small",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: aluminium cans and foil (excl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: mixed cans",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: scrap metal",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Metal",
+      "wasteType": "Metal: steel cans",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Other",
+      "wasteType": "Glass",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Open-loop",
+      "activity": "Refuse",
+      "wasteType": "Household residual waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Construction",
+      "wasteType": "Mineral oil",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Construction",
+      "wasteType": "Wood",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - large",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - mixed",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Electrical items",
+      "wasteType": "WEEE - small",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Metal",
+      "wasteType": "Metal: aluminium cans and foil (excl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Metal",
+      "wasteType": "Metal: mixed cans",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Metal",
+      "wasteType": "Metal: scrap metal",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Metal",
+      "wasteType": "Metal: steel cans",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Other",
+      "wasteType": "Books",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Other",
+      "wasteType": "Clothing",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Other",
+      "wasteType": "Glass",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Paper",
+      "wasteType": "Paper and board: board",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Paper",
+      "wasteType": "Paper and board: mixed",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Paper",
+      "wasteType": "Paper and board: paper",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: HDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: LDPE and LLDPE (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PET (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PP (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PS (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: PVC (incl. forming)",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic film",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastic rigid",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Plastic",
+      "wasteType": "Plastics: average plastics",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Refuse",
+      "wasteType": "Commercial and industrial waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Refuse",
+      "wasteType": "Household residual waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Refuse",
+      "wasteType": "Organic: food and drink waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Refuse",
+      "wasteType": "Organic: garden waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Combustion",
+      "activity": "Refuse",
+      "wasteType": "Organic: mixed food and garden waste",
+      "unit": "tonnes",
+      "factor": 21.293565891472866
+    },
+    {
+      "process": "Composting",
+      "activity": "Construction",
+      "wasteType": "Wood",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Paper",
+      "wasteType": "Paper and board: board",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Paper",
+      "wasteType": "Paper and board: mixed",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Paper",
+      "wasteType": "Paper and board: paper",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Refuse",
+      "wasteType": "Commercial and industrial waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Refuse",
+      "wasteType": "Household residual waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Refuse",
+      "wasteType": "Organic: food and drink waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Refuse",
+      "wasteType": "Organic: garden waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Composting",
+      "activity": "Refuse",
+      "wasteType": "Organic: mixed food and garden waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Anaerobic digestion",
+      "activity": "Refuse",
+      "wasteType": "Commercial and industrial waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Anaerobic digestion",
+      "activity": "Refuse",
+      "wasteType": "Household residual waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Anaerobic digestion",
+      "activity": "Refuse",
+      "wasteType": "Organic: food and drink waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Anaerobic digestion",
+      "activity": "Refuse",
+      "wasteType": "Organic: garden waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    },
+    {
+      "process": "Anaerobic digestion",
+      "activity": "Refuse",
+      "wasteType": "Organic: mixed food and garden waste",
+      "unit": "tonnes",
+      "factor": 8.950697674418604
+    }
+  ],
+  "businessTravel": [
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.045649999999999996
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.052539999999999996
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.060660000000000006
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.054770000000000006
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.15949
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.23626
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.17624
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.13758
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.16496
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.20721
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.16843
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.10494
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.10957
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.15151
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.11952
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.17927
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.26643
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.19828
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.14946
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.18785
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.27909
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.17431
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.05568
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.09097000000000001
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.10492
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.09694
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.14549
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.17562
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.22597
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.17148
+    },
+    {
+      "vehicle": "Ferry",
+      "type": "Foot passenger",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.018737999999999998
+    },
+    {
+      "vehicle": "Ferry",
+      "type": "Car passenger",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.129517
+    },
+    {
+      "vehicle": "Ferry",
+      "type": "Average (all passenger)",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.112862
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Small",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.08306000000000001
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Medium",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.1009
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Large",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.13244999999999998
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Average",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.11355
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Regular taxi",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.20826
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Regular taxi",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.14876
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Black cab",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.30624
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Black cab",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.20416
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Local bus (not London)",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.11774000000000001
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Local London bus",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.07718
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Average local bus",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.10227
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Coach",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.02684
+    },
+    {
+      "vehicle": "Rail",
+      "type": "National rail",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.03549
+    },
+    {
+      "vehicle": "Rail",
+      "type": "International rail",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.0044599999999999996
+    },
+    {
+      "vehicle": "Rail",
+      "type": "Light rail and tram",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.02813
+    },
+    {
+      "vehicle": "Rail",
+      "type": "London Underground",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.027809999999999998
+    }
+  ],
+  "commuting": [
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.045649999999999996
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.052539999999999996
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.060660000000000006
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "km",
+      "factor": 0.054770000000000006
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.15949
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.23626
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "CNG",
+      "unit": "km",
+      "factor": 0.17624
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.13758
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.16496
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.20721
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Diesel",
+      "unit": "km",
+      "factor": 0.16843
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.10494
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.10957
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.15151
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Hybrid",
+      "unit": "km",
+      "factor": 0.11952
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.17927
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.26643
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "LPG",
+      "unit": "km",
+      "factor": 0.19828
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.14946
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.18785
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.27909
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Petrol",
+      "unit": "km",
+      "factor": 0.17431
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.05568
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.09097000000000001
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.10492
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "km",
+      "factor": 0.09694
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Small car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.14549
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Medium car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.17562
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Large car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.22597
+    },
+    {
+      "vehicle": "Cars (by size)",
+      "type": "Average car",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.17148
+    },
+    {
+      "vehicle": "Ferry",
+      "type": "Foot passenger",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.018737999999999998
+    },
+    {
+      "vehicle": "Ferry",
+      "type": "Car passenger",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.129517
+    },
+    {
+      "vehicle": "Ferry",
+      "type": "Average (all passenger)",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.112862
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Small",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.08306000000000001
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Medium",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.1009
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Large",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.13244999999999998
+    },
+    {
+      "vehicle": "Motorbike",
+      "type": "Average",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.11355
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Regular taxi",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.20826
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Regular taxi",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.14876
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Black cab",
+      "fuel": "Unknown",
+      "unit": "km",
+      "factor": 0.30624
+    },
+    {
+      "vehicle": "Taxis",
+      "type": "Black cab",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.20416
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Local bus (not London)",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.11774000000000001
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Local London bus",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.07718
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Average local bus",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.10227
+    },
+    {
+      "vehicle": "Bus",
+      "type": "Coach",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.02684
+    },
+    {
+      "vehicle": "Rail",
+      "type": "National rail",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.03549
+    },
+    {
+      "vehicle": "Rail",
+      "type": "International rail",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.0044599999999999996
+    },
+    {
+      "vehicle": "Rail",
+      "type": "Light rail and tram",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.02813
+    },
+    {
+      "vehicle": "Rail",
+      "type": "London Underground",
+      "fuel": "Unknown",
+      "unit": "passenger.km",
+      "factor": 0.027809999999999998
+    }
+  ],
+  "freight": [
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "Diesel",
+      "unit": "tonne.km",
+      "factor": 0.81485
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "Petrol",
+      "unit": "tonne.km",
+      "factor": 1.07383
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "CNG",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "LPG",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "Unknown",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class I (up to 1.305 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.18775999999999998
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Diesel",
+      "unit": "tonne.km",
+      "factor": 0.6292
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Petrol",
+      "unit": "tonne.km",
+      "factor": 0.72057
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "CNG",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "LPG",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Unknown",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class II (1.305 to 1.74 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.24576
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Diesel",
+      "unit": "tonne.km",
+      "factor": 0.59232
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Petrol",
+      "unit": "tonne.km",
+      "factor": 0.77569
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "CNG",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "LPG",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Unknown",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Class III (1.74 to 3.5 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.22935
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "Diesel",
+      "unit": "tonne.km",
+      "factor": 0.60261
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "Petrol",
+      "unit": "tonne.km",
+      "factor": 0.71915
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "CNG",
+      "unit": "tonne.km",
+      "factor": 0.61515
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "LPG",
+      "unit": "tonne.km",
+      "factor": 0.67659
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "Unknown",
+      "unit": "tonne.km",
+      "factor": 0.60635
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "Plug-in Hybrid Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.0
+    },
+    {
+      "vehicle": "Vans",
+      "type": "Average (up to 3.5 tonnes)",
+      "fuel": "Battery Electric Vehicle",
+      "unit": "tonne.km",
+      "factor": 0.24547
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "Rigid (>3.5 - 7.5 tonnes)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.48674
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "Rigid (>7.5 tonnes-17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.34002
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "Rigid (>17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.18142
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "All rigids",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.2078
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "Articulated (>3.5 - 33t)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.12626
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "Articulated (>33t)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.08017
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "All artics",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.0812
+    },
+    {
+      "vehicle": "HGV (all diesel)",
+      "type": "All HGVs",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.10749
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "Rigid (>3.5 - 7.5 tonnes)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.57946
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "Rigid (>7.5 tonnes-17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.40479
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "Rigid (>17 tonnes)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.21598
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "All rigids",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.24739
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "Articulated (>3.5 - 33t)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.14602
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "Articulated (>33t)",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.09272
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "All artics",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.0939
+    },
+    {
+      "vehicle": "HGV refrigerated (all diesel)",
+      "type": "All HGVs",
+      "fuel": "Average laden",
+      "unit": "tonne.km",
+      "factor": 0.12588
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "Domestic, to/from UK",
+      "fuel": "With RF",
+      "unit": "tonne.km",
+      "factor": 4.4936300000000005
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "Domestic, to/from UK",
+      "fuel": "Without RF",
+      "unit": "tonne.km",
+      "factor": 2.3765
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "Short-haul, to/from UK",
+      "fuel": "With RF",
+      "unit": "tonne.km",
+      "factor": 2.30229
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "Short-haul, to/from UK",
+      "fuel": "Without RF",
+      "unit": "tonne.km",
+      "factor": 1.21717
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "Long-haul, to/from UK",
+      "fuel": "With RF",
+      "unit": "tonne.km",
+      "factor": 1.0189000000000001
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "Long-haul, to/from UK",
+      "fuel": "Without RF",
+      "unit": "tonne.km",
+      "factor": 0.5386700000000001
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "International, to/from non-UK",
+      "fuel": "With RF",
+      "unit": "tonne.km",
+      "factor": 1.0189000000000001
+    },
+    {
+      "vehicle": "Freight flights",
+      "type": "International, to/from non-UK",
+      "fuel": "Without RF",
+      "unit": "tonne.km",
+      "factor": 0.5386700000000001
+    },
+    {
+      "vehicle": "Rail",
+      "type": "Freight train",
+      "fuel": "Without RF",
+      "unit": "tonne.km",
+      "factor": 0.02782
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "200,000+ dwt",
+      "unit": "tonne.km",
+      "factor": 0.00294
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "120,000–199,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.0044610000000000006
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "80,000–119,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.005982000000000001
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "60,000–79,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.007604
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "10,000–59,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.009227
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "0–9999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.033763
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Crude tanker",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.0045720000000000005
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Products tanker",
+      "fuel": "60,000+ dwt",
+      "unit": "tonne.km",
+      "factor": 0.00578
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Products tanker",
+      "fuel": "20,000–59,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.010443
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Products tanker",
+      "fuel": "10,000–19,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.018961
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Products tanker",
+      "fuel": "5000–9999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.029606999999999998
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Products tanker",
+      "fuel": "0–4999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.045626
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Products tanker",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.009033999999999999
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Chemical tanker",
+      "fuel": "20,000+ dwt",
+      "unit": "tonne.km",
+      "factor": 0.008517
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Chemical tanker",
+      "fuel": "10,000–19,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.01095
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Chemical tanker",
+      "fuel": "5000–9999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.015310999999999998
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Chemical tanker",
+      "fuel": "0–4999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.022509
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "Chemical tanker",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.010322
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "LNG tanker",
+      "fuel": "200,000+ m3",
+      "unit": "tonne.km",
+      "factor": 0.009430000000000001
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "LNG tanker",
+      "fuel": "0–199,999 m3",
+      "unit": "tonne.km",
+      "factor": 0.014701
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "LNG tanker",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.011548000000000001
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "LPG Tanker",
+      "fuel": "50,000+ m3",
+      "unit": "tonne.km",
+      "factor": 0.009125999999999999
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "LPG Tanker",
+      "fuel": "0–49,999 m3",
+      "unit": "tonne.km",
+      "factor": 0.044105
+    },
+    {
+      "vehicle": "Sea tanker",
+      "type": "LPG Tanker",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.010382
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "200,000+ dwt",
+      "unit": "tonne.km",
+      "factor": 0.0025350000000000004
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "100,000–199,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.003042
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "60,000–99,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.004156999999999999
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "35,000–59,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.00578
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "10,000–34,999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.008010000000000001
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "0–9999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.029606999999999998
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Bulk carrier",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.003539
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "10,000+ dwt",
+      "unit": "tonne.km",
+      "factor": 0.012066000000000002
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "5000–9999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.016020000000000003
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "0–4999 dwt",
+      "unit": "tonne.km",
+      "factor": 0.014093000000000001
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "10,000+ dwt 100+ TEU",
+      "unit": "tonne.km",
+      "factor": 0.011153
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "5000–9999 dwt 100+ TEU",
+      "unit": "tonne.km",
+      "factor": 0.017743000000000002
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "0–4999 dwt 100+ TEU",
+      "unit": "tonne.km",
+      "factor": 0.020076
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "General cargo",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.013232
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "8000+ TEU",
+      "unit": "tonne.km",
+      "factor": 0.012674000000000001
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "5000–7999 TEU",
+      "unit": "tonne.km",
+      "factor": 0.016831000000000002
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "3000–4999 TEU",
+      "unit": "tonne.km",
+      "factor": 0.016831000000000002
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "2000–2999 TEU",
+      "unit": "tonne.km",
+      "factor": 0.020278
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "1000–1999 TEU",
+      "unit": "tonne.km",
+      "factor": 0.032547000000000006
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "0–999 TEU",
+      "unit": "tonne.km",
+      "factor": 0.036805
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Container ship",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.016142
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Vehicle transport",
+      "fuel": "4000+ CEU",
+      "unit": "tonne.km",
+      "factor": 0.032446
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Vehicle transport",
+      "fuel": "0–3999 CEU",
+      "unit": "tonne.km",
+      "factor": 0.058401
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Vehicle transport",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.038578999999999995
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "RoRo-Ferry",
+      "fuel": "2000+ LM",
+      "unit": "tonne.km",
+      "factor": 0.050189000000000004
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "RoRo-Ferry",
+      "fuel": "0–1999 LM",
+      "unit": "tonne.km",
+      "factor": 0.061139
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "RoRo-Ferry",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.051659000000000004
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Large RoPax ferry",
+      "fuel": "Average",
+      "unit": "tonne.km",
+      "factor": 0.37667
+    },
+    {
+      "vehicle": "Cargo ship",
+      "type": "Refrigerated cargo",
+      "fuel": "All dwt",
+      "unit": "tonne.km",
+      "factor": 0.013080000000000001
+    }
+  ],
+  "hotels": [
+    {
+      "country": "Argentina",
+      "factor": 77.0804243080567
+    },
+    {
+      "country": "Australia",
+      "factor": 51.46647172340534
+    },
+    {
+      "country": "Austria",
+      "factor": 18.725744293612962
+    },
+    {
+      "country": "Belgium",
+      "factor": 16.035151683703944
+    },
+    {
+      "country": "Brazil",
+      "factor": 16.769809675026117
+    },
+    {
+      "country": "Canada",
+      "factor": 23.00216629233371
+    },
+    {
+      "country": "Chile",
+      "factor": 38.50351117402239
+    },
+    {
+      "country": "China",
+      "factor": 76.73762714643848
+    },
+    {
+      "country": "Colombia",
+      "factor": 18.69146646178479
+    },
+    {
+      "country": "Costa Rica",
+      "factor": 11.096858841059207
+    },
+    {
+      "country": "Czech Republic",
+      "factor": 53.03721946366912
+    },
+    {
+      "country": "Egypt",
+      "factor": 65.38268261481176
+    },
+    {
+      "country": "Fiji",
+      "factor": 48.99333603729903
+    },
+    {
+      "country": "France",
+      "factor": 8.012618454560544
+    },
+    {
+      "country": "Germany",
+      "factor": 22.572026711400376
+    },
+    {
+      "country": "Greece",
+      "factor": 56.62768572000594
+    },
+    {
+      "country": "Hong Kong, China",
+      "factor": 84.42643847533512
+    },
+    {
+      "country": "India",
+      "factor": 93.1987991426366
+    },
+    {
+      "country": "Indonesia",
+      "factor": 110.3676141753575
+    },
+    {
+      "country": "Ireland",
+      "factor": 31.775165187017322
+    },
+    {
+      "country": "Israel",
+      "factor": 72.59808058695285
+    },
+    {
+      "country": "Italy",
+      "factor": 26.199251568086986
+    },
+    {
+      "country": "Japan",
+      "factor": 81.86144012716701
+    },
+    {
+      "country": "Jordan",
+      "factor": 80.4771351312643
+    },
+    {
+      "country": "Korea",
+      "factor": 85.19047283181993
+    },
+    {
+      "country": "Macau, China",
+      "factor": 109.01410445195043
+    },
+    {
+      "country": "Malaysia",
+      "factor": 95.9351301754814
+    },
+    {
+      "country": "Maldives",
+      "factor": 218.68109608622194
+    },
+    {
+      "country": "Mexico",
+      "factor": 30.51757563917813
+    },
+    {
+      "country": "Netherlands",
+      "factor": 23.77837013688196
+    },
+    {
+      "country": "New Zealand",
+      "factor": 11.567172168839967
+    },
+    {
+      "country": "Panama",
+      "factor": 31.723971121521245
+    },
+    {
+      "country": "Peru",
+      "factor": 28.653892337825912
+    },
+    {
+      "country": "Philippines",
+      "factor": 66.5394230958349
+    },
+    {
+      "country": "Poland",
+      "factor": 39.11920791608344
+    },
+    {
+      "country": "Portugal",
+      "factor": 36.47338475262595
+    },
+    {
+      "country": "Qatar",
+      "factor": 165.17598310801637
+    },
+    {
+      "country": "Romania",
+      "factor": 34.161833982091636
+    },
+    {
+      "country": "Russian Federation",
+      "factor": 37.980628163173535
+    },
+    {
+      "country": "Saudi Arabia",
+      "factor": 156.64337011620293
+    },
+    {
+      "country": "Singapore",
+      "factor": 51.33198800626876
+    },
+    {
+      "country": "Slovak Republic",
+      "factor": 21.340126307499247
+    },
+    {
+      "country": "South Africa",
+      "factor": 82.36216616113515
+    },
+    {
+      "country": "Spain",
+      "factor": 20.07311875167859
+    },
+    {
+      "country": "Switzerland",
+      "factor": 10.745317978366998
+    },
+    {
+      "country": "Taiwan, China",
+      "factor": 117.81990810145552
+    },
+    {
+      "country": "Thailand",
+      "factor": 59.04716607240139
+    },
+    {
+      "country": "Turkey",
+      "factor": 41.77022500411569
+    },
+    {
+      "country": "United Arab Emirates",
+      "factor": 145.46219520593925
+    },
+    {
+      "country": "United Kingdom",
+      "factor": 18.411913834381792
+    },
+    {
+      "country": "United States",
+      "factor": 23.037691394877818
+    },
+    {
+      "country": "Vietnam",
+      "factor": 60.12407505020374
+    },
+    {
+      "country": "Other",
+      "factor": 57.81385063359773
+    }
+  ],
+  "heatSteam": [
+    {
+      "activity": "Heat and steam",
+      "type": "District heat and steam",
+      "unit": "kWh",
+      "factor": 0.17073,
+      "tdFactor": 0.00899
+    }
+  ],
+  "water": [
+    {
+      "kind": "supply",
+      "label": "Water Supply",
+      "unit": "cubic metres",
+      "factor": 0.149
+    },
+    {
+      "kind": "treatment",
+      "label": "Water Treatment",
+      "unit": "cubic metres",
+      "factor": 0.272
+    }
+  ]
+}

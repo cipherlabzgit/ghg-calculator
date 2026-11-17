@@ -1,0 +1,1388 @@
+[
+  {
+    "name": "Afghanistan",
+    "gefKgPerKwh": 0.1932476705354675,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Albania",
+    "gefKgPerKwh": 0.0,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Algeria",
+    "gefKgPerKwh": 0.3973599659999851,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "American Samoa",
+    "gefKgPerKwh": 0.5158517860623051,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Andorra",
+    "gefKgPerKwh": 0.0696738495735174,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Angola",
+    "gefKgPerKwh": 0.7476993002447749,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Anguilla",
+    "gefKgPerKwh": 0.4715405515765649,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "gefKgPerKwh": 0.48936326941013636,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Argentina",
+    "gefKgPerKwh": 0.28818336045538856,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Armenia",
+    "gefKgPerKwh": 0.2045448374967287,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Aruba",
+    "gefKgPerKwh": 0.4211027916266279,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Australia",
+    "gefKgPerKwh": 0.42053363647474784,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Austria",
+    "gefKgPerKwh": 0.11306459924536531,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Azerbaijan",
+    "gefKgPerKwh": 0.3843432466847795,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bahamas",
+    "gefKgPerKwh": 0.44084390528246614,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bahrain",
+    "gefKgPerKwh": 0.45426772236082774,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bangladesh",
+    "gefKgPerKwh": 0.4117139397607263,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Barbados",
+    "gefKgPerKwh": 0.4839997086124417,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Belarus",
+    "gefKgPerKwh": 0.2915601707461071,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Belgium",
+    "gefKgPerKwh": 0.12439442830229973,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Belize",
+    "gefKgPerKwh": 0.182951451942395,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Benin",
+    "gefKgPerKwh": 0.5757649827039882,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bermuda",
+    "gefKgPerKwh": 0.3415088722804582,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bhutan",
+    "gefKgPerKwh": 0.0,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bolivia (Plurinational State of)",
+    "gefKgPerKwh": 0.39328922931458055,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "gefKgPerKwh": 0.4002008502268069,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "gefKgPerKwh": 0.7389970389817649,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Botswana",
+    "gefKgPerKwh": 1.0702660561769677,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Brazil",
+    "gefKgPerKwh": 0.15002455524249805,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "British Virgin Islands",
+    "gefKgPerKwh": 0.42019370651198024,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Brunei Darussalam",
+    "gefKgPerKwh": 0.40716262469847075,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Bulgaria",
+    "gefKgPerKwh": 0.49528073716719095,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Burkina Faso",
+    "gefKgPerKwh": 0.5390972552868741,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Burundi",
+    "gefKgPerKwh": 0.19702455268316243,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cabo Verde",
+    "gefKgPerKwh": 0.5050203607560665,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cambodia",
+    "gefKgPerKwh": 0.5878056579166453,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cameroon",
+    "gefKgPerKwh": 0.3543533031701641,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Canada",
+    "gefKgPerKwh": 0.21336269883078726,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Canary Islands (Spain)",
+    "gefKgPerKwh": 0.4348141385675182,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cayman Islands",
+    "gefKgPerKwh": 0.3726714673977749,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Central African Republic",
+    "gefKgPerKwh": 0.07654327054041116,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Chad",
+    "gefKgPerKwh": 0.5808589444525181,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Channel Islands (U.K)",
+    "gefKgPerKwh": 0.38864330796075547,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Chile",
+    "gefKgPerKwh": 0.23522759412950062,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "China",
+    "gefKgPerKwh": 0.4854116581831094,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Colombia",
+    "gefKgPerKwh": 0.2083405816551489,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Comoros",
+    "gefKgPerKwh": 0.5891121073872121,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Congo",
+    "gefKgPerKwh": 0.4052711501588599,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cook Islands",
+    "gefKgPerKwh": 0.42172474668190363,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Costa Rica",
+    "gefKgPerKwh": 0.03889054290542519,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Croatia",
+    "gefKgPerKwh": 0.16786317078875765,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cuba",
+    "gefKgPerKwh": 0.39116420340992103,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Curaçao",
+    "gefKgPerKwh": 0.5057344273454731,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Cyprus",
+    "gefKgPerKwh": 0.4380304755089935,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Czechia",
+    "gefKgPerKwh": 0.4613053207146579,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Côte d’Ivoire",
+    "gefKgPerKwh": 0.31423207204883674,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Democratic People's Republic of Korea",
+    "gefKgPerKwh": 0.35948250254137204,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "gefKgPerKwh": 0.0003731949990667075,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Denmark",
+    "gefKgPerKwh": 0.15524215224135512,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Djibouti",
+    "gefKgPerKwh": 0.5754710042947454,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Dominica",
+    "gefKgPerKwh": 0.432876330429857,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Dominican Republic",
+    "gefKgPerKwh": 0.4262199044106032,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Ecuador",
+    "gefKgPerKwh": 0.2800294909278872,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Egypt",
+    "gefKgPerKwh": 0.40588937135029746,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "El Salvador",
+    "gefKgPerKwh": 0.27485008888093454,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Equatorial Guinea",
+    "gefKgPerKwh": 0.3611439154384962,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Eritrea",
+    "gefKgPerKwh": 0.703659095629061,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Estonia",
+    "gefKgPerKwh": 0.6251508307589613,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Eswatini",
+    "gefKgPerKwh": 0.0,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Ethiopia",
+    "gefKgPerKwh": 0.00014137451606587194,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Falkland Islands (Malvinas)",
+    "gefKgPerKwh": 0.3155638778124766,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Faroe Islands",
+    "gefKgPerKwh": 0.3204106740312501,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Fiji",
+    "gefKgPerKwh": 0.33444750654637956,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Finland",
+    "gefKgPerKwh": 0.11407744325305934,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "France",
+    "gefKgPerKwh": 0.0676227302178105,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "French Guiana",
+    "gefKgPerKwh": 0.19963952023268763,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "French Polynesia",
+    "gefKgPerKwh": 0.4124669215599873,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Gabon",
+    "gefKgPerKwh": 0.5329343146080872,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Gambia",
+    "gefKgPerKwh": 0.5909736287084296,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Georgia",
+    "gefKgPerKwh": 0.13546579806767312,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Germany",
+    "gefKgPerKwh": 0.3128844837588933,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Ghana",
+    "gefKgPerKwh": 0.27598720016838457,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Gibraltar",
+    "gefKgPerKwh": 0.36878488096005385,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Greece",
+    "gefKgPerKwh": 0.3458436563843835,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Greenland",
+    "gefKgPerKwh": 0.10481543874366528,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Grenada",
+    "gefKgPerKwh": 0.5226972855042964,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Guadeloupe",
+    "gefKgPerKwh": 0.43283816382376417,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Guam",
+    "gefKgPerKwh": 0.42781751637600723,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Guatemala",
+    "gefKgPerKwh": 0.4271002816256613,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Guinea",
+    "gefKgPerKwh": 0.4595535077600665,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Guinea-Bissau",
+    "gefKgPerKwh": 0.5772261624092289,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Guyana",
+    "gefKgPerKwh": 0.6156995752736618,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Haiti",
+    "gefKgPerKwh": 0.7646132816948206,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Honduras",
+    "gefKgPerKwh": 0.35908721846448904,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Hungary",
+    "gefKgPerKwh": 0.19106812185105576,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Iceland",
+    "gefKgPerKwh": 3.231426044255337e-05,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "India",
+    "gefKgPerKwh": 0.6076988217335226,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Indonesia",
+    "gefKgPerKwh": 0.6745001132526575,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Iran (Islamic Republic of)",
+    "gefKgPerKwh": 0.42091570869559075,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Iraq",
+    "gefKgPerKwh": 0.7879167185653282,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Ireland",
+    "gefKgPerKwh": 0.18948199631026585,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Isle of Man",
+    "gefKgPerKwh": 0.20425785650194292,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Israel",
+    "gefKgPerKwh": 0.25834601334393376,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Italy",
+    "gefKgPerKwh": 0.2237124367134288,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Jamaica",
+    "gefKgPerKwh": 0.4976041530355115,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Japan",
+    "gefKgPerKwh": 0.40825411194196204,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Jordan",
+    "gefKgPerKwh": 0.3818627985604762,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Kazakhstan",
+    "gefKgPerKwh": 0.5322177040728538,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Kenya",
+    "gefKgPerKwh": 0.2742580362216026,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Kiribati",
+    "gefKgPerKwh": 0.5296244477736681,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Kosovo",
+    "gefKgPerKwh": 0.8428157796622195,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Kuwait",
+    "gefKgPerKwh": 0.39976965536565945,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Kyrgyzstan",
+    "gefKgPerKwh": 0.0977209144612165,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "gefKgPerKwh": 0.5545619121304051,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Latvia",
+    "gefKgPerKwh": 0.11720603105855093,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Lebanon",
+    "gefKgPerKwh": 0.5669850034175606,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Lesotho",
+    "gefKgPerKwh": 0.0,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Liberia",
+    "gefKgPerKwh": 0.37391313303397694,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Libya",
+    "gefKgPerKwh": 0.49333625699416395,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Liechtenstein",
+    "gefKgPerKwh": 0.05210260049692787,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Lithuania",
+    "gefKgPerKwh": 0.10184412274316461,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Luxembourg",
+    "gefKgPerKwh": 0.0950405923246065,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Madagascar",
+    "gefKgPerKwh": 0.5674109228654125,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Madeira (Portugal)",
+    "gefKgPerKwh": 0.3686634819244987,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Malawi",
+    "gefKgPerKwh": 0.24273169367576958,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Malaysia",
+    "gefKgPerKwh": 0.43619213559667075,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Maldives",
+    "gefKgPerKwh": 0.5244602826270511,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mali",
+    "gefKgPerKwh": 0.6233716755063615,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Malta",
+    "gefKgPerKwh": 0.2945124055340673,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Marshall Islands",
+    "gefKgPerKwh": 0.5609232613601453,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Martinique",
+    "gefKgPerKwh": 0.40642868750288047,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mauritania",
+    "gefKgPerKwh": 0.5131207333318674,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mauritius",
+    "gefKgPerKwh": 0.5427629563138291,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mayotte",
+    "gefKgPerKwh": 0.5119887195486821,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mexico",
+    "gefKgPerKwh": 0.3585044788030079,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Micronesia (Federated States of)",
+    "gefKgPerKwh": 0.5566305887334513,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Monaco",
+    "gefKgPerKwh": 0.0676227302178105,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mongolia",
+    "gefKgPerKwh": 1.001951322531854,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Montenegro",
+    "gefKgPerKwh": 0.4710434515052614,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Montserrat",
+    "gefKgPerKwh": 0.5169865656833627,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Morocco",
+    "gefKgPerKwh": 0.5468271146982047,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Mozambique",
+    "gefKgPerKwh": 0.1107817145243435,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Myanmar",
+    "gefKgPerKwh": 0.40681016900032624,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Namibia",
+    "gefKgPerKwh": 0.13857700071594978,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Nauru",
+    "gefKgPerKwh": 0.5206989212757913,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Nepal",
+    "gefKgPerKwh": 6.627684399105216e-06,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Netherlands",
+    "gefKgPerKwh": 0.2029021450113807,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "New Caledonia",
+    "gefKgPerKwh": 0.44534111591181663,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "New Zealand",
+    "gefKgPerKwh": 0.10755764507409099,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Nicaragua",
+    "gefKgPerKwh": 0.3719723505385192,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Niger",
+    "gefKgPerKwh": 0.7178980132072593,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Nigeria",
+    "gefKgPerKwh": 0.3575957660375868,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Niue",
+    "gefKgPerKwh": 0.4588479334451208,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "North Macedonia",
+    "gefKgPerKwh": 0.5628460057539887,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "gefKgPerKwh": 0.4162459313245922,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Norway",
+    "gefKgPerKwh": 0.016926232606405134,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Oman",
+    "gefKgPerKwh": 0.3196202930121528,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Pakistan",
+    "gefKgPerKwh": 0.38558443628385586,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Palau",
+    "gefKgPerKwh": 0.4971949420275612,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Panama",
+    "gefKgPerKwh": 0.23033956010958131,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Papua New Guinea",
+    "gefKgPerKwh": 0.315140709986773,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Paraguay",
+    "gefKgPerKwh": 1.4536672318183018e-05,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Peru",
+    "gefKgPerKwh": 0.25231024108828437,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Philippines",
+    "gefKgPerKwh": 0.5249866814203265,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Poland",
+    "gefKgPerKwh": 0.5320692783839155,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Portugal",
+    "gefKgPerKwh": 0.2277425886338198,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Puerto Rico",
+    "gefKgPerKwh": 0.36161668730944324,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Qatar",
+    "gefKgPerKwh": 0.25811205740676596,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Republic of Korea",
+    "gefKgPerKwh": 0.3350468797635089,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Republic of Moldova",
+    "gefKgPerKwh": 0.39925864856099397,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Romania",
+    "gefKgPerKwh": 0.289479547025046,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Russian Federation",
+    "gefKgPerKwh": 0.3600242454355628,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Rwanda",
+    "gefKgPerKwh": 0.41600923480616653,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Réunion",
+    "gefKgPerKwh": 0.4208579809780482,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saint Helena",
+    "gefKgPerKwh": 0.45612301120760934,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "gefKgPerKwh": 0.47708604640944624,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saint Lucia",
+    "gefKgPerKwh": 0.5209070541531716,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saint Martin (French Part)",
+    "gefKgPerKwh": 0.4835549541152917,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "gefKgPerKwh": 0.41487524919417906,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "gefKgPerKwh": 0.4992484978758193,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Samoa",
+    "gefKgPerKwh": 0.43429372549193523,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "San Marino",
+    "gefKgPerKwh": 0.2237124367134288,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "gefKgPerKwh": 0.5647233142635162,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Saudi Arabia",
+    "gefKgPerKwh": 0.3736855569728954,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Senegal",
+    "gefKgPerKwh": 0.6562445461117493,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Serbia",
+    "gefKgPerKwh": 0.6777297478289909,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Seychelles",
+    "gefKgPerKwh": 0.4787896608044483,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Sierra Leone",
+    "gefKgPerKwh": 0.24592899433095167,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Singapore",
+    "gefKgPerKwh": 0.19964443170570417,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
+    "gefKgPerKwh": 0.46304431251750444,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Slovakia",
+    "gefKgPerKwh": 0.16372125716658412,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Slovenia",
+    "gefKgPerKwh": 0.2848539622834993,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Solomon Islands",
+    "gefKgPerKwh": 0.5628229362253285,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Somalia",
+    "gefKgPerKwh": 0.5822922640563654,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "South Africa",
+    "gefKgPerKwh": 0.7857474547840104,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "South Sudan",
+    "gefKgPerKwh": 0.7040508382232685,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Spain",
+    "gefKgPerKwh": 0.20869804493845825,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Sri Lanka",
+    "gefKgPerKwh": 0.5058547349597274,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "State of Palestine",
+    "gefKgPerKwh": 0.5168206330746538,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Sudan",
+    "gefKgPerKwh": 0.39817196931350857,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Suriname",
+    "gefKgPerKwh": 0.5648849590312457,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Sweden",
+    "gefKgPerKwh": 0.025275304048983677,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Switzerland",
+    "gefKgPerKwh": 0.020173190933358426,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "gefKgPerKwh": 0.5464798862752593,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Taiwan (Chinese Taipei)",
+    "gefKgPerKwh": 0.3311560677264923,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Tajikistan",
+    "gefKgPerKwh": 0.10572642103426015,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Thailand",
+    "gefKgPerKwh": 0.35071181490391207,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Timor-Leste",
+    "gefKgPerKwh": 0.5892132916100365,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Togo",
+    "gefKgPerKwh": 0.5967666359044201,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Tonga",
+    "gefKgPerKwh": 0.532698415970728,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "gefKgPerKwh": 0.36974755991694974,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Tunisia",
+    "gefKgPerKwh": 0.34780278400693937,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Turkey",
+    "gefKgPerKwh": 0.308808921085952,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Turkmenistan",
+    "gefKgPerKwh": 0.6756267242516152,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "gefKgPerKwh": 0.45059347279180745,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Tuvalu",
+    "gefKgPerKwh": 0.4965177914253449,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Uganda",
+    "gefKgPerKwh": 0.11585259002861456,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Ukraine",
+    "gefKgPerKwh": 0.43467951906483526,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "United Arab Emirates",
+    "gefKgPerKwh": 0.3104005431343253,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "gefKgPerKwh": 0.21856929902663236,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "United Republic of Tanzania",
+    "gefKgPerKwh": 0.3360498044171513,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "United States Virgin Islands",
+    "gefKgPerKwh": 0.3730149257810399,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "United States of America",
+    "gefKgPerKwh": 0.24591061682998977,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Uruguay",
+    "gefKgPerKwh": 0.0648285438462597,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Uzbekistan",
+    "gefKgPerKwh": 0.4673727908595872,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Vanuatu",
+    "gefKgPerKwh": 0.5041807267261385,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Venezuela (Bolivarian Republic of)",
+    "gefKgPerKwh": 0.3677521893275219,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Viet Nam",
+    "gefKgPerKwh": 0.38080799846500124,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Yemen",
+    "gefKgPerKwh": 0.6145621328909245,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Zambia",
+    "gefKgPerKwh": 0.19699130651213528,
+    "source": "IFI",
+    "vintage": 2020
+  },
+  {
+    "name": "Zimbabwe",
+    "gefKgPerKwh": 0.8802535963554808,
+    "source": "IFI",
+    "vintage": 2020
+  }
+]

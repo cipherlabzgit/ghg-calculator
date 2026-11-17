@@ -1,0 +1,45 @@
+{
+  "organisation": {
+    "name": "Golden Test",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "period": "2024"
+  },
+  "skippedCategories": [],
+  "scope1": {
+    "fuels": [{ "type": "Gaseous fuels", "fuel": "CNG", "unit": "litres", "amount": 1000 }],
+    "bioenergy": [],
+    "refrigerants": [{ "protocol": "Kyoto protocol - standard", "gas": "HFC-134a", "unit": "kg", "amount": 1 }],
+    "ownedVehicles": []
+  },
+  "scope2": { "electricity": [], "heatSteam": [] },
+  "scope3": {
+    "wttFuels": [],
+    "water": [{ "kind": "supply", "unit": "cubic metres", "amount": 1000 }],
+    "materialUse": [
+      {
+        "process": "Primary material production",
+        "activity": "Construction",
+        "material": "Aggregates",
+        "unit": "tonnes",
+        "tonnes": 10
+      }
+    ],
+    "waste": [],
+    "flights": [{ "kgCO2e": 1000 }],
+    "hotels": [],
+    "businessTravel": [],
+    "freight": [
+      {
+        "vehicle": "Vans",
+        "type": "Class I (up to 1.305 tonnes)",
+        "fuel": "Diesel",
+        "unit": "tonne.km",
+        "tonnes": 1,
+        "km": 100
+      }
+    ],
+    "commuting": [],
+    "food": [{ "foodType": "1 average meal", "amount": 10 }],
+    "homeOffice": []
+  }
+}

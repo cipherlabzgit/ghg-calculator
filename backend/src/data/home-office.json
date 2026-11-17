@@ -1,0 +1,23 @@
+{
+  "hoursPerMonth": 160,
+  "types": [
+    {
+      "officeType": "With cooling",
+      "unit": "kWh",
+      "kWhPerHour": 3.65,
+      "source": "EcoAct Homeworking emissions whitepaper"
+    },
+    {
+      "officeType": "With heating",
+      "unit": "kWh",
+      "kWhPerHour": 5.15,
+      "source": "EcoAct Homeworking emissions whitepaper"
+    },
+    {
+      "officeType": "No heating/No cooling",
+      "unit": "kWh",
+      "kWhPerHour": 0.15000000000000002,
+      "source": "EcoAct Homeworking emissions whitepaper"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "foodType": "1 standard breakfast",
+    "unit": "breakfast",
+    "factor": 0.84,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "1 gourmet breakfast",
+    "unit": "breakfast",
+    "factor": 2.33,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "1 cold or hot snack",
+    "unit": "hot snack",
+    "factor": 2.02,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "1 average meal",
+    "unit": "meal",
+    "factor": 4.7,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "Non-alcoholic beverage",
+    "unit": "litre",
+    "factor": 0.2,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "Alcoholic beverage",
+    "unit": "litre",
+    "factor": 1.87,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "1 hot snack (burger + frites)",
+    "unit": "hot snack",
+    "factor": 2.77,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "1 sandwich",
+    "unit": "sandwich",
+    "factor": 1.27,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "Meal, vegan",
+    "unit": "meal",
+    "factor": 1.69,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "Meal, vegetarian",
+    "unit": "meal",
+    "factor": 2.85,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "Meal, with beef",
+    "unit": "meal",
+    "factor": 6.93,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  },
+  {
+    "foodType": "Meal, with chicken",
+    "unit": "meal",
+    "factor": 3.39,
+    "source": "IOC / Olympic carbon methodology",
+    "vintage": null
+  }
+]
